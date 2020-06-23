@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.obadda.obsante",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "microservice",
+    "baseName": "esante",
+    "packageName": "com.obadda.obsante",
+    "packageFolder": "com/obadda/obsante",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mariadb",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "YWNiNDJmZDM1ZDc1MWQyNWYzYmRkMTUwODEwM2FhYmI2N2I5MzgxNDFkYmZhNjU3NDZjMzgyNzA4MGU0YTkzM2M4OThkMWY0OGM1MzE4ODJjODQzMjhhOTM5OTRiYzMyYWZmNjQ4OTJjNWQ1MDEyMmFjYWM5YWZjOTdiMGQ3ZDk=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1592910980085,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "fr",
+    "languages": ["fr", "ar-ly", "en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
